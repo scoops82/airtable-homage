@@ -1,0 +1,39 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 100%);
+  line-height: 1.25;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 1.15;
+}
+
+.webinar-banner {
+  background-color: #faf2f4;
+  padding: 12px 24px;
+  font-size: 1.4rem;
+}
+
+.webinar-banner a {
+  color: hsl(344deg 71% 45%);
+  margin-top: 8px;
+}
+
+.webinar-banner a svg {
+  transform: rotate(180deg);
+}
+
+.left-nav .airtable-logo {
+  max-width: 38.4px;
+  max-height: 32px;
+}
