@@ -56,8 +56,8 @@
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="/styles/generics.css">
 	<link rel="stylesheet" href="/styles/base.css">
-	<link rel="stylesheet" href="/styles/tablet.css" media="min-width=800px">
-	<link rel="stylesheet" href="/styles/desktop.css" media="min-width=1100px">
+	<link rel="stylesheet" href="/styles/tablet.css">
+	<link rel="stylesheet" href="/styles/desktop.css">
 
 	<title>Airtable | Create apps that perfectly fit your team's needs</title>
 
@@ -105,17 +105,26 @@
 						</div>
 					</a>
 				</div>
-				<a href="#">Product</a>
-				<a href="#">Solutions</a>
-				<a href="#">Pricing</a>
-				<a href="#">Enterprise</a>
-				<a href="#">Resources</a>
-			</div>
 
+
+			</div>
 			<div class="right-nav">
-				<a href="#">Contact sales</a>
-				<a href="#"><span class="cta-button">Sign up</span></a>
-				<a href="#">Sign in</a>
+				<a class="nav-item not-mobile not-tablet" href="#">Contact sales</a>
+				<a class="nav-item" href="#"><span class="cta-button">Sign up</span></a>
+				<a class="nav-item not-mobile" href="#">Sign in</a>
+				<div class="menu-wrapper">
+					<div class="hamburger-icon">
+						<div class="hamburger-line"></div>
+						<div class="hamburger-line"></div>
+					</div>
+					<ul class="nav-menu">
+						<li><a class="menu-item" href="#">Product</a></li>
+						<li><a class="menu-item" href="#">Solutions</a></li>
+						<li><a class="menu-item" href="#">Pricing</a></li>
+						<li><a class="menu-item" href="#">Enterprise</a></li>
+						<li><a class="menu-item" href="#">Resources</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 
@@ -235,7 +244,7 @@
 					</path>
 				</svg></div>
 		</section>
-		<section>
+		<section class="create-solutions-section">
 			<h1>Create solutions that mirror your business</h1>
 			<p>Move work forward faster with no-code apps that perfectly match your team's agility and scale.</p>
 		</section>
@@ -245,7 +254,7 @@
 				<p>Create a single source of truth that's tailored precisely to how your teams work. Include everything
 					you need, nothing you don't.</p>
 
-				<a href="#">Explore the product →</a>
+				<a class="cta-link" href="#">Explore the product →</a>
 			</div>
 			<div>
 				<picture>
@@ -269,7 +278,7 @@
 					simple way to take action.
 				</p>
 
-				<a href="#">Learn more about Interface Designer →</a>
+				<a class="cta-link" href="#">Learn more about Interface Designer →</a>
 			</div>
 		</section>
 		<section class="sync">
@@ -281,7 +290,7 @@
 					<p>All your information. Always up to date. At your fingertips. Keep everything in sync across your
 						organization.</p>
 
-					<a href="#">Learn about Sync →</a>
+					<a class="cta-link" href="#">Learn about Sync →</a>
 				</div>
 			</div>
 			<div>
