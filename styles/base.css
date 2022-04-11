@@ -1,3 +1,8 @@
+html {
+  --cta-color: #0967f7;
+  --cta-button-text: #ffffff;
+}
+
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
@@ -5,6 +10,7 @@ body {
   color: hsl(0, 0%, 20%);
   background-color: hsl(0, 0%, 100%);
   line-height: 1.25;
+  max-width: 100%;
 }
 
 section {
@@ -33,7 +39,73 @@ h1 {
   transform: rotate(180deg);
 }
 
+.top-nav {
+  height: 164px;
+}
+
+.left-nav {
+}
+
+.left-nav .brand-module a {
+  display: inline-flex;
+  align-items: center;
+}
+
 .left-nav .airtable-logo {
   max-width: 38.4px;
   max-height: 32px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  max-width: 100%;
+  padding: 25px 25px 40px;
+  gap: 25px;
+  background-color: #eef8fb;
+}
+
+.hero > * {
+  width: 100%;
+}
+
+.hero-image video {
+  width: 100%;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: var(--cta-color);
+  color: var(--cta-button-text);
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+}
+
+.logo-section {
+  background-color: #f2f4f7;
+  padding: 0.7em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section div {
+  max-width: 25%;
+  margin: 2em;
+  opacity: 0.6;
 }
